@@ -2,7 +2,7 @@ const operacoes=require("./OperacoesAritmeticas");
 
 describe("Testes de operações aritméticas",()=>{
 
-    it ("Soma 1+2 deve retornar 3",async()=>{
+    it ("Soma 2+3 deve retornar 5",async()=>{
         //cenário
         const esperado=5;
 
