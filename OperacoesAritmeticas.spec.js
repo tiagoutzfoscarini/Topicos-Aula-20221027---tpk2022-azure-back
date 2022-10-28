@@ -7,7 +7,7 @@ describe("Testes de operações aritméticas",()=>{
         const esperado="5";
 
         //execução
-        const resultado=operacoes.soma(2,3);
+        const resultado=operacoes.somar(2,3);
 
         //validação
         expect(resultado).toBe(esperado);
@@ -18,7 +18,7 @@ describe("Testes de operações aritméticas",()=>{
         const esperado="2";
 
         //execução
-        const resultado=operacoes.subtacao(9,7);
+        const resultado=operacoes.subtrair(9,7);
 
         //validação
         expect(resultado).toBe(esperado);
@@ -29,7 +29,7 @@ describe("Testes de operações aritméticas",()=>{
         const esperado="6";
 
         //execução
-        const resultado=operacoes.soma(2,3);
+        const resultado=operacoes.multiplicar(2,3);
 
         //validação
         expect(resultado).toBe(esperado);
@@ -40,7 +40,7 @@ describe("Testes de operações aritméticas",()=>{
         const esperado="3";
 
         //execução
-        const resultado=operacoes.soma(9,3);
+        const resultado=operacoes.dividir(9,3);
 
         //validação
         expect(resultado).toBe(esperado);
